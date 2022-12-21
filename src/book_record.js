@@ -29,9 +29,9 @@
         // データ取得
         // ------------------------------------
         const bookRecords = await (new KintoneRestAPIClient({
-          auth: { apiToken: '9cV4VGWkMw0pVzozi9R7Kq8DM0tUjZeJb3DIpBuk' }
+          auth: { apiToken: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' }
         })).record.getAllRecords({
-          app: 716,
+          app: 999,
           condition: '貸出状況 in ("未貸出")'
         }).then(resp => {
           console.log(resp);
