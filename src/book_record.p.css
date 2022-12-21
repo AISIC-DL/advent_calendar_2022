@@ -1,0 +1,57 @@
+.tblContents {
+  width: 800px;
+}
+
+
+.th_chk {
+  border: solid 1px;
+  width: 50px;
+  background-color: #7fffd4;
+}
+
+.th_code {
+  font-weight: bold;
+  text-align: center;
+  border: solid 1px;
+  width: 150px;
+  background-color: #7fffd4;
+}
+
+.th_name {
+  font-weight: bold;
+  text-align: center;
+  border: solid 1px;
+  width: 500px;
+  background-color: #7fffd4;
+}
+
+.th_author {
+  font-weight: bold;
+  text-align: center;
+  border: solid 1px;
+  width: 150px;
+  background-color: #7fffd4;
+}
+
+
+
+.td_chk {
+  text-align: center;
+  border: solid 1px;
+  width: 50px;
+}
+
+.td_code {
+  border: solid 1px;
+  width: 150px;
+}
+
+.td_name {
+  border: solid 1px;
+  width: 500px;
+}
+
+.td_author {
+  border: solid 1px;
+  width: 150px;
+}
